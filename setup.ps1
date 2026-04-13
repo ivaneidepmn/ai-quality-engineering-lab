@@ -1,3 +1,18 @@
+# =========================
+# Criar .gitignore
+# =========================
+@'
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+'@ | Set-Content -Encoding UTF8 .gitignore
+
+
+# =========================
+# Criar README.md
+# =========================
+@'
 # 🚀 AI Quality Engineering Lab
 
 Projeto prático de Quality Engineering com foco em automação de testes, APIs e integração com IA.
@@ -51,3 +66,32 @@ pytest
 ---
 
 💡 Projeto desenvolvido para evolução em QA Sênior com foco em IA.
+'@ | Set-Content -Encoding UTF8 README.md
+
+
+# =========================
+# Ajustar requirements
+# =========================
+python -m pip freeze | Out-File -Encoding utf8 requirements.txt
+
+
+# =========================
+# Git init (se ainda não tiver)
+# =========================
+git init
+
+# =========================
+# Commit inicial
+# =========================
+git add .
+git commit -m "feat: initial QA AI project with tests and structure"
+
+# =========================
+# Branch main
+# =========================
+git branch -M main
+
+# =========================
+# Push (se já tiver remote)
+# =========================
+git push -u origin main
