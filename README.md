@@ -1,4 +1,7 @@
 # 🚀 AI Quality Engineering Lab
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Pytest](https://img.shields.io/badge/Pytest-Tests-green)
+![Status](https://img.shields.io/badge/tests-passing-brightgreen)
 
 Projeto prático de Quality Engineering com foco em automação de testes, APIs e integração com IA.
 
