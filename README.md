@@ -33,10 +33,9 @@ Demonstrar habilidades em testes automatizados, validação de APIs e preparaç�
 tests/  -> testes automatizados  
 src/    -> integrações e lógica  
 docs/   -> documentação  
----
-## ▶️ Como executar
 
-```bash
+---
+
 ## ▶️ Como executar
 
 ```bash
@@ -44,15 +43,5 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 pytest
-
----
-
-## 🚀 Próximos passos
-- Testes com IA (LLM testing)
-- Integração com Azure AI Foundry
-- Pipeline CI/CD
-- Testes E2E
-
----
 
 💡 Projeto desenvolvido para evolução em QA Sênior com foco em IA.
