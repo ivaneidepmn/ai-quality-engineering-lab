@@ -30,7 +30,10 @@ Demonstrar habilidades em testes automatizados, validação de APIs e preparaç�
 tests/  -> testes automatizados  
 src/    -> integrações e lógica  
 docs/   -> documentação  
+---
+## ▶️ Como executar
 
+```bash
 ## ▶️ Como executar
 
 ```bash
