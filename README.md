@@ -31,8 +31,6 @@ tests/  -> testes automatizados
 src/    -> integrações e lógica  
 docs/   -> documentação  
 
----
-
 ## ▶️ Como executar
 
 ```bash
