@@ -35,10 +35,11 @@ docs/   -> documentação
 
 ## ▶️ Como executar
 
-python -m venv .venv  
-.\.venv\Scripts\Activate.ps1  
-python -m pip install -r requirements.txt  
-pytest  
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+pytest
 
 ---
 
